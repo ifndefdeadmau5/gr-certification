@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory xmlns:android="http://schemas.android.com/apk/res/android"
+        android:title="검색설정">
+        <com.afollestad.materialdialogs.prefs.MaterialListPreference
+            android:entries="@array/pref_example_list_titles"
+            android:entryValues="@array/pref_example_list_values"
+            android:key="example_list"
+            android:negativeButtonText="@null"
+            android:persistent="true"
+            android:positiveButtonText="@null"
+            android:title="@string/sort_order" />
+    </PreferenceCategory>
+    <PreferenceCategory xmlns:android="http://schemas.android.com/apk/res/android"
+        android:title="정보">
+        <Preference android:title="GR인증현황 v1.0">
+
+        </Preference>
+    </PreferenceCategory>
+
+    <!-- NOTE: EditTextPreference accepts EditText attributes. -->
+    <!-- NOTE: EditTextPreference's summary should be set to its value by the activity code. -->
+
+    <!-- NOTE: Hide buttons to simplify the UI. Users can touch outside the dialog to
+         dismiss it. -->
+    <!-- NOTE: ListPreference's summary should be set to its value by the activity code. -->
+
+
+</PreferenceScreen>

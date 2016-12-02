@@ -1,0 +1,175 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.SeongMin.GoodProduct.ui.ObservableScrollView
+        android:id="@+id/scroll_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#fff"
+        android:fillViewport="true"
+        android:overScrollMode="never">
+
+        <FrameLayout
+            android:id="@+id/scroll_view_child"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <!--android:clipChildren="true">-->
+
+
+            <!-- Background photo -->
+            <FrameLayout
+                android:id="@+id/session_photo_container"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/session_photo"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/company_banner"
+                    android:visibility="visible" />
+            </FrameLayout>
+
+            <LinearLayout
+                android:id="@+id/details_container"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/light_green_200"
+                android:clipToPadding="false"
+                android:orientation="vertical"
+                android:paddingBottom="24dp"
+                android:paddingRight="16dp"
+                android:paddingTop="16dp">
+                <!--
+                                <TextView
+                                    android:id="@+id/session_abstract"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginBottom="16dp"
+                                    android:layout_marginLeft="72dp"
+                                    android:text=""
+                                    android:textSize="20sp"
+                                    />
+                                <HorizontalScrollView
+                                    android:id="@+id/session_tags_container"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginBottom="16dp"
+                                    android:layout_marginLeft="76dp"
+                                    android:fadingEdgeLength="16dp"
+                                    android:requiresFadingEdge="horizontal"
+                                    android:scrollbars="none">
+
+                                    <FrameLayout
+                                        android:id="@+id/session_tags"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="32dp">
+
+                                    </FrameLayout>
+                                </HorizontalScrollView>-->
+
+                <LinearLayout
+                    android:id="@+id/session_requirements_block"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginTop="8dp"
+                    android:orientation="vertical"
+                    android:visibility="visible">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="8dp"
+                        android:layout_marginTop="8dp"
+                        android:text="소재"
+                        android:textColor="@color/charred_olive"
+                        android:textSize="32sp" />
+
+                    <TextView
+                        android:id="@+id/session_requirements"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="8dp"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginTop="8dp"
+                        android:text="여기에 주소가 표시됩니다. "
+                        android:textColor="#757575"
+                        android:textSize="@dimen/abc_text_size_small_material" />
+
+                    <TextView
+                        android:id="@+id/certify_list_text"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="8dp"
+                        android:layout_marginTop="8dp"
+                        android:text="유효 인증목록"
+                        android:textColor="@color/charred_olive"
+                        android:textSize="32sp" />
+                </LinearLayout>
+
+                <com.dexafree.materialList.view.MaterialListView
+                    android:id="@+id/material_listview"
+                    android:layout_width="fill_parent"
+                    android:layout_height="350dp"
+                    android:layout_marginLeft="17dp" />
+
+
+            </LinearLayout>
+
+            <!-- Title/subtitle bar (floating; position determined at run time as the content view scrolls) -->
+            <LinearLayout
+                android:id="@+id/header_session"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/light_green_500"
+                android:clipChildren="false"
+                android:clipToPadding="false"
+                android:orientation="vertical"
+                android:paddingBottom="16dp">
+
+                <include layout="@layout/toolbar_actionbar" />
+
+                <!-- Session title -->
+                <TextView
+                    android:id="@+id/session_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="0dp"
+                    android:layout_marginLeft="72dp"
+                    android:layout_marginRight="16dp"
+                    android:ellipsize="end"
+                    android:lineSpacingMultiplier="1.1"
+                    android:maxLines="4"
+                    android:singleLine="true"
+                    android:text="What's New in Android"
+                    android:textAlignment="viewStart"
+                    android:textSize="18sp" />
+
+                <!-- Session subtitle -->
+                <TextView
+                    android:id="@+id/session_subtitle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="72dp"
+                    android:layout_marginRight="16dp"
+                    android:ellipsize="end"
+                    android:maxLines="2"
+                    android:singleLine="true"
+                    android:text="SeongMin Park"
+                    android:textAlignment="viewStart"
+                    android:textSize="16sp" />
+
+            </LinearLayout>
+
+            <!-- FAB -->
+            <include layout="@layout/include_add_company_fab" />
+
+        </FrameLayout>
+
+
+    </com.SeongMin.GoodProduct.ui.ObservableScrollView>
+</LinearLayout>

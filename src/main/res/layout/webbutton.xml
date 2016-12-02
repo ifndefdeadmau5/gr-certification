@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ImageButton xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/imgwebbutton"
+    android:layout_width="24dp"
+    android:layout_height="24dp"
+    android:layout_gravity="center_vertical"
+    android:alpha="1.0"
+    android:background="@android:color/transparent"
+    android:scaleType="centerInside"
+    android:src="@drawable/web"
+    android:tint="#0066ffee" />

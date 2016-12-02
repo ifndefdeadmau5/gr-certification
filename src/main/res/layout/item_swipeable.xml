@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.malinskiy.superrecyclerview.swipe.SwipeLayout
+        android:id="@id/recyclerview_swipe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="92dp"
+            android:background="@color/hell_oliv"
+            android:gravity="center"
+            android:tag="Bottom3"
+            android:weightSum="10">
+
+            <com.malinskiy.materialicons.widget.IconTextView
+                android:id="@+id/trash"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="{md-delete}"
+                android:textSize="24dp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="5"
+                android:text="Delete?"
+                android:textColor="#fff"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/delete"
+                android:layout_width="10dp"
+                android:layout_height="48dp"
+                android:layout_weight="4"
+                android:background="#ffffff"
+                android:text="Yes"
+                android:textColor="@color/green_pallet_1" />
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/item_selector">
+
+            <TextView
+                android:id="@+id/code"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Large Text"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#757575" />
+
+            <TextView
+                android:id="@+id/name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/code"
+                android:text="Small Text"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="#BDBDBD" />
+
+            <TextView
+                android:id="@+id/count2"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="4dp"
+                android:layout_toRightOf="@id/code"
+                android:background="@drawable/info_background"
+                android:gravity="center_vertical|center_horizontal"
+                android:text="6"
+                android:textColor="#FFFFFF"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:tag="Hover" />
+        </RelativeLayout>
+        <!-- <LinearLayout
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:background="@drawable/item_selector"
+             android:orientation="vertical">
+
+             <TextView
+                 android:id="@+id/code"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:text="Large Text"
+                 android:textAppearance="?android:attr/textAppearanceLarge"
+                 android:textColor="#009688" />
+
+             <TextView
+                 android:id="@+id/name"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:text="Small Text"
+                 android:textAppearance="?android:attr/textAppearanceSmall"
+                 android:textColor="#4DB6AC" />
+
+             <TextView
+                 android:layout_width="match_parent"
+                 android:layout_height="match_parent"
+                 android:tag="Hover" />
+         </LinearLayout>-->
+
+    </com.malinskiy.superrecyclerview.swipe.SwipeLayout>
+</LinearLayout>

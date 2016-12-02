@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="navdrawer_width">260dp</dimen>
+    <dimen name="fab_size_normal">56dp</dimen>
+    <dimen name="fab_shadow_size">8dp</dimen>
+    <dimen name="fab_elevation_lollipop">4dp</dimen>
+    <dimen name="title_size">24sp</dimen>
+    <dimen name="bigger_title_size">28sp</dimen>
+    <dimen name="subtitle_size">20sp</dimen>
+    <dimen name="description_size">16sp</dimen>
+    <dimen name="button_size">14sp</dimen>
+    <dimen name="big_padding">16dp</dimen>
+    <dimen name="small_padding">8dp</dimen>
+    <dimen name="card_corner_radius">2dp</dimen>
+    <dimen name="fab_elevation">8dp</dimen>
+    <dimen name="session_details_floating_width">500dp</dimen>
+    <dimen name="session_details_floating_height">650dp</dimen>
+    <dimen name="headerbar_elevation">4dp</dimen>
+    <dimen name="session_detail_max_header_elevation">@dimen/headerbar_elevation</dimen>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+</resources>

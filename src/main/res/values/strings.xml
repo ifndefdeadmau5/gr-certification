@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">GR Certification</string>
+    <string name="drawer_open">Menu</string>
+    <string name="drawer_close">GR Certification</string>
+
+    <string-array name="planets_array">
+        <item>폐플라스틱</item>
+        <item>폐요업</item>
+        <item>폐지</item>
+        <item>폐고무</item>
+        <item>폐목재</item>
+        <item>유기성폐기물</item>
+        <item>폐유리</item>
+        <item>폐섬유</item>
+        <item>폐식용유</item>
+        <item>폐금속</item>
+        <item>폐산, 폐알칼리</item>
+        <item>폐유기용제</item>
+        <item>폐수처리오니</item>
+        <item>폐유</item>
+        <item>수산물가공잔재물</item>
+        <item>식물성잔재물</item>
+        <item>폐전지</item>
+    </string-array>
+
+    <string name="title_activity_intro">GR인증현황</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="title_activity_grdetail">GRDetail</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="menu_search">menu</string>
+    <string name="menu_spin">menu</string>
+    <string name="action_add">Add</string>
+    <string name="action_remove">Remove</string>
+    <string name="selected_count">%1$s selected</string>
+    <string name="title_activity_base">BaseActivity</string>
+    <string name="title">분야\n표준명\n제정일자\n개정일자</string>
+    <string name="physicalweb_intro_text">This tab can show you links to content related to the conference features near your current location (e.g., partner websites, apps, demos and interactive content). To do this, the app will perform a Bluetooth LE scan of your surroundings to look for tags and send that information to a Google server for processing. Once activated, this will continue for the duration of the event, as long as your device has Bluetooth turned on. If you want to turn the feature off, visit the app\'s Settings menu or deactivate Bluetooth on the device. Keep in mind this is just an experiment with BLE, not a full product, so there may be some rough edges! It may not work if there is poor or no network connection, or if there is too much interference.\n\nWould you like to enable this feature now?</string>
+
+    <string-array name="faq">
+        <item> GR 인증을 취득하시기 위해서는 신청제품이 해당되시는 GR 표준이 존재하셔야 합니다. 그런데 GR 표준은 요청과 절차에 의해서 GR 품목으로 선정및 표준의 제・개정이 이루어지며, 그 진행절차는 다음과 같습니다.
+① GR 대상품목 선정
+- GR 표준은 대상품목으로 선정된 품목에 한하여 GR 표준이 존재하거나 제・개정이 이루어집니다. GR 대상품목 선정은 그 첫 단계로, 신청을 통하여 GR 대상품목으로서의 타당성을 GR인증 규격제정위원회를 통하여 검증을 받습니다. 규격제정위원회에서 발표와 질의응답, 투표를 통하여 선정여부를 결정하게 됩니다. 단, 대상품목으로 신청하시는 제품은 『자원의 절약과 재활용촉진에 관한 법률 시행규칙』(별표1)에 해당되는 제품이셔야 하며 『우수재활용제조제품(GR) 인증요령』(기술표준원 고시 제 2009-125호) 제2조(정의) 및 제3조(인증대상)에 부합하셔야 합니다.</item>
+        <item> GR 인증을 취득하시기 위해서는 만족하셔야 되는 다음과 같은 필수 조건들이 있습니다.
+① 반드시 국내에서 발생된 재활용 원료 또는 원자재를 사용하셔야 합니다.
+② 신청제품과 부합되는 GR 표준이 있으셔야 되며 그에 따른 재활용률과 품질기준이 적합하셔야 합니다.
+③ 인증신청서에 기재된 첨부서류는 모두 갖추셔야 됩니다.
+단, 공인규격에 따른 인증 및 공인기관의 인증, 특허 등을 획득한 경우 그 증빙서류 및 일부 주문자 생산 또는 생산설비의 임차 등에 의하여 신청제품을 생산하는 경우 약정서 등 증빙서류는 해당되는 경우에만 제출하시면 됩니다.</item>
+        <item> GR 인증서가 도착하면 신청서 및 제품설명서, 그리고 첨부서류를 검토하여 반려 또는 보완 요청의 사유가 없을 경우에는 접수가 이루어지며, 접수된 날로부터 90일 이내에 모든 인증절차가 종료됩니다. 또한 신규 인증심사의 경우, 총 3차(평가위원회 - 현장심사 - 심의위원회)에 걸친 심사로 진행이 되며 모든 단계를 적합으로 판정받으신 경우에 한해 인증서가 발급됩니다.
+연장 인증심사의 경우, 평가위원회는 면제해 드리며 기 인증된 유효기간이 만료되기 3개월 이전까지 반드시 연장 신청을 하셔야 됩니다.</item>
+        <item> GR 인증의 유효기간은 우수재활용제조제품(GR) 인증요령(기술표준원 고시 제 2009-125호)에 따라 3년이며 연장 횟수 및 최대 보유기간은 별도로 제한하고 있지 않습니다.</item>
+        <item>『우수재활용제조제품 인증요령』(기술표준원 고시 제2009-125호)제3조(인증대상)5항에 따라 연간 2회, 일정기간을 정하여 접수받는 것을 원칙으로 하나 현재 신청업체의 편의를 고려하여 예외적으로 수시 접수받고 있습니다.</item>
+   <item> 사용하시는 재활용 원자재의 사용비율 변경(GR 표준 내 규정한 취소 재활용률 이상)하시는 경우와 사용하시는 원자재 종류가 변경되시는 경우에는 사유 발생일로부터 3개월 이내에 증빙서류를 첨부하시어 신고를 하셔야 합니다. 증빙서류에는 변경 후 생산된 제품의 시험성적서와 원료 입고대장 등이 첨부되셔야 하며 필요에 따라 GR 특별사후관리 심사를 받으실 수 있습니다.
+
+또한, 『우수재활용제조제품(GR) 인증요령』(기술표준원 고시 제 2009-125호) 제27조에 따라 GR 표준의 품질기준이 변경 또는 추가되는 경우에도 동일한 절차를 따르도록 규정되어 있습니다.</item>
+    </string-array>
+
+
+    <string name="title_activity_setting">설정</string>
+
+    <string-array name="tips_array">
+        <item>와이파이환경이 아닌 상태에서 다운로드시 데이터 사용량이 많아질 수 있습니다</item>
+        <item>관심표준/업체 목록에서 항목을 왼쪽으로 스와이프하여 삭제할 수 있습니다</item>
+        <item>상단의 툴바에서 검색대상(표준/업체)을 설정할 수 있습니다</item>
+        <item>표준으로 검색시 표준명과 표준번호로 검색이 가능합니다</item>
+        <item>네트워크 연결이 다시 돌아왔을때 아래로 당기면 분야별보기가 갱신됩니다</item>
+        <item>분야별보기는 GR표준을 총 17개 재활용분야에 따라 탭으로 분류됩니다</item>
+        <item>표준 항목에 나타나는 숫자는 해당 표준을 취득한 업체의 갯수 입니다</item>
+        <item>업체 항목에 나타나는 숫자는 취득한 인증의 갯수 입니다</item>
+        <item>업체의 유효 인증목록에서 만료일자를 확인할 수 있습니다</item>
+        <item>설정화면에서 검색결과의 정렬기준을 설정할 수 있습니다</item>
+
+        <item>표준 상세정보에서 표준 문서 파일(pdf)을 다운받을 수 있습니다</item>
+    </string-array>
+
+
+</resources>
